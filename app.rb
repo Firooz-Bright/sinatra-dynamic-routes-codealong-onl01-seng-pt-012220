@@ -18,4 +18,6 @@ class App < Sinatra::Base
    @person_name = params[:name]
    "Goodbye, #{@person_name}."
  end 
+ 
+ 
 end
